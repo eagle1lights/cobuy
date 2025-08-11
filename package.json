@@ -1,0 +1,32 @@
+{
+  "name": "cobuy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "idb": "7.1.1",
+    "lucide-react": "0.460.0",
+    "next": "15.0.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "zod": "3.23.8",
+    "date-fns": "3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.4",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "autoprefixer": "10.4.20",
+    "eslint": "9.10.0",
+    "eslint-config-next": "15.0.3",
+    "postcss": "8.4.45",
+    "tailwindcss": "3.4.10",
+    "typescript": "5.6.2"
+  }
+}

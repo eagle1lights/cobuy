@@ -1,0 +1,16 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root{--bg:#0b0e12;--card:#11161c;--muted:#9aa4b2;--ring:#0ea5e9}
+html,body{height:100%} body{@apply bg-slate-950 text-slate-100}
+a{@apply underline-offset-2}
+.focus-ring{@apply focus:outline-none focus:ring-2 focus:ring-brand focus:ring-offset-2 focus:ring-offset-slate-950}
+.card{@apply bg-slate-900/60 backdrop-blur border border-slate-800 rounded-2xl shadow}
+.btn{@apply inline-flex items-center gap-2 rounded-xl px-3 py-2 border border-slate-700 hover:border-slate-600 transition focus-ring}
+.btn-primary{@apply bg-brand text-white border-brand hover:opacity-90}
+.input{@apply w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 placeholder-slate-400 focus-ring}
+.label{@apply text-sm text-slate-300} .kbd{@apply px-1.5 py-0.5 rounded border border-slate-700 text-xs}
+.badge{@apply inline-flex items-center gap-1 rounded-full text-xs px-2 py-1 border border-slate-700}
+.progress{@apply w-full h-2 rounded bg-slate-800 overflow-hidden}.progress>span{@apply block h-full bg-brand}
+.table{@apply w-full text-sm}.table th{@apply text-left font-semibold text-slate-300 py-2}.table td{@apply py-2 border-t border-slate-800}
+hr{@apply border-slate-800 my-4}
+.banner{@apply text-xs text-slate-300 bg-slate-800/50 border border-slate-700 rounded-lg px-3 py-2}
+nav a{@apply no-underline} nav a[aria-current='page']{@apply text-brand}
